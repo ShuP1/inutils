@@ -10,7 +10,7 @@ class Container
 
     public function __construct(array $data = array())
     {
-        $this->data = $data 
+        $this->data = $data;
     }
 
     public function __get(string $name){
